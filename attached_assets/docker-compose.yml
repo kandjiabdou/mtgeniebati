@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  njabootconnect:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_URL=your_database_url
+    volumes:
+      - .:/app
+    restart: unless-stopped
