@@ -236,7 +236,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Adresse</h4>
-                        <p className="text-gray-600">123 Rue de la Construction<br />75001 Paris, France</p>
+                        <p className="text-gray-600">Thies Sénégal</p>
                       </div>
                     </div>
                     
@@ -246,7 +246,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Téléphone</h4>
-                        <p className="text-gray-600">01 23 45 67 89</p>
+                        <p className="text-gray-600">+221 78 422 63 31</p>
                       </div>
                     </div>
                     
@@ -256,19 +256,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <p className="text-gray-600">contact@mgtbatipro.fr</p>
+                        <p className="text-gray-600">massatacisse@mtgeniebati.com</p>
                       </div>
                     </div>
                     
-                    <div className="flex items-start">
-                      <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <Clock className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900">Horaires</h4>
-                        <p className="text-gray-600">Lun - Ven: 8h00 - 18h00<br />Sam: 8h00 - 12h00</p>
-                      </div>
-                    </div>
+
                   </div>
                 </CardContent>
               </Card>
