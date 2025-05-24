@@ -24,7 +24,7 @@ RUN npm install --production
 RUN npm install cross-env
 
 # Exposer le port utilisé
-EXPOSE 3000
+EXPOSE 7000
 
 # Lancer l'application en production
 CMD ["npm", "start"]
