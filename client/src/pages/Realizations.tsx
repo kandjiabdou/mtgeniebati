@@ -131,7 +131,7 @@ export default function Realizations() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Nos Chiffres Clés</h2>
-            <p className="text-xl text-gray-600">Plus de 15 ans d'expérience à votre service</p>
+            <p className="text-xl text-gray-600">Des réalisations de qualité à votre service</p>
           </motion.div>
           
           <div className="grid md:grid-cols-4 gap-8">
@@ -142,7 +142,7 @@ export default function Realizations() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-4xl font-bold text-primary mb-2">35+</div>
               <p className="text-gray-600">Projets réalisés</p>
             </motion.div>
             
@@ -153,7 +153,7 @@ export default function Realizations() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="text-4xl font-bold text-accent mb-2">15+</div>
+              <div className="text-4xl font-bold text-accent mb-2">5+</div>
               <p className="text-gray-600">Années d'expérience</p>
             </motion.div>
             
@@ -175,7 +175,7 @@ export default function Realizations() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <div className="text-4xl font-bold text-primary mb-2">25+</div>
+              <div className="text-4xl font-bold text-primary mb-2">12+</div>
               <p className="text-gray-600">Artisans qualifiés</p>
             </motion.div>
           </div>

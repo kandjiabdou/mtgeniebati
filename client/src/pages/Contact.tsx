@@ -265,13 +265,18 @@ export default function Contact() {
                 </CardContent>
               </Card>
               
-              {/* Map Placeholder */}
-              <Card className="bg-gray-100 h-64 flex items-center justify-center shadow-lg">
-                <div className="text-center text-gray-600">
-                  <MapPin className="w-12 h-12 mx-auto mb-2" />
-                  <p>Carte Google Maps</p>
-                  <p className="text-sm">Intégration à venir</p>
-                </div>
+              {/* Map */}
+              <Card className="overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124024.85736!2d-16.9126!3d14.7889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172f5b6f7f515%3A0x7e9b6f7e4d5e3a1b!2sThiès%2C%20Sénégal!5e0!3m2!1sfr!2sus!4v1648000000000!5m2!1sfr!2sus"
+                  width="100%"
+                  height="256"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localisation MGT BatiPro - Thiès, Sénégal"
+                />
               </Card>
             </motion.div>
           </div>

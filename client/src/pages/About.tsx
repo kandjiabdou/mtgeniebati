@@ -26,7 +26,7 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl opacity-90"
           >
-            Votre partenaire de confiance dans le bâtiment depuis plus de 15 ans
+Votre partenaire de confiance pour des réalisations de qualité
           </motion.p>
         </div>
       </section>
@@ -43,8 +43,8 @@ export default function About() {
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Notre Histoire</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Fort de nombreuses années d'expérience dans le secteur du bâtiment, MGT BatiPro s'est imposée 
-                comme un acteur incontournable de la construction et de la rénovation.
+MGT BatiPro s'est imposée comme un acteur incontournable de la construction et de la rénovation 
+                grâce à la qualité exceptionnelle de ses réalisations.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Notre philosophie repose sur l'excellence, la qualité et la satisfaction client. Nous croyons 
@@ -96,11 +96,11 @@ export default function About() {
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl p-6 shadow-xl border">
                 <div className="flex items-center">
                   <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mr-4">
-                    <span className="text-2xl font-bold text-white">15+</span>
+                    <span className="text-2xl font-bold text-white">98%</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Années d'expérience</p>
-                    <p className="text-gray-600">Dans le bâtiment</p>
+                    <p className="font-semibold text-gray-900">Satisfaction client</p>
+                    <p className="text-gray-600">Qualité garantie</p>
                   </div>
                 </div>
               </div>
