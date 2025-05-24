@@ -1,4 +1,4 @@
-# Guide de Déploiement - MGT BatiPro
+# Guide de Déploiement - MT GENIE BATI
 
 ## Prérequis
 
@@ -19,7 +19,7 @@ cp .env.example .env
 MAIL_USER=votre-email@mtgeniebati.com
 MAIL_PASS=votre-mot-de-passe-email
 NODE_ENV=production
-PORT=3000
+PORT=7000
 ```
 
 ## Déploiement avec Docker

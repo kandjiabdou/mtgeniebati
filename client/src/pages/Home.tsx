@@ -9,7 +9,7 @@ import { Link } from "wouter";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "MGT BatiPro - Votre projet clé en main avec la qualité avant tout";
+    document.title = "MT GENIE BATI - Votre projet clé en main avec la qualité avant tout";
   }, []);
 
   return (

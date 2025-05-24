@@ -32,7 +32,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
         >
-          Votre projet clé en main avec MGT BatiPro
+          Votre projet clé en main avec MT GENIE BATI
         </motion.h1>
         
         <motion.p 

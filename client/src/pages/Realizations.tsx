@@ -49,7 +49,7 @@ const projects = [
 
 export default function Realizations() {
   useEffect(() => {
-    document.title = "Nos Réalisations - MGT BatiPro";
+    document.title = "Nos Réalisations - MT GENIE BATI";
   }, []);
 
   return (

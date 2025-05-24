@@ -32,7 +32,7 @@ export default function Contact() {
   });
 
   useEffect(() => {
-    document.title = "Contact - MGT BatiPro";
+    document.title = "Contact - MT GENIE BATI";
   }, []);
 
   const contactMutation = useMutation({
@@ -275,7 +275,7 @@ export default function Contact() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localisation MGT BatiPro - Thiès, Sénégal"
+                  title="Localisation MT GENIE BATI - Thiès, Sénégal"
                 />
               </Card>
             </motion.div>

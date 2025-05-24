@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">MGT BatiPro</h3>
+            <h3 className="text-2xl font-bold mb-4">MT GENIE BATI</h3>
             <p className="text-gray-300 mb-6">
               Votre partenaire de confiance pour tous vos projets de construction et rénovation. 
               La qualité avant tout !
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 MGT BatiPro. Tous droits réservés.</p>
+          <p>&copy; 2024 MT GENIE BATI. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

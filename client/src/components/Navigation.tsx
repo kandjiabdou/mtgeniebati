@@ -26,17 +26,6 @@ export default function Navigation() {
     { href: "/contact", label: "Contact" },
   ];
 
-  const scrollToContact = () => {
-    if (location === "/") {
-      const contactSection = document.getElementById("contact");
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: "smooth" });
-      }
-    } else {
-      window.location.href = "/contact";
-    }
-  };
-
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -47,8 +36,20 @@ export default function Navigation() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary">MGT BatiPro</h1>
+
+          <Link href="/" className="flex items-center space-x-2">
+            <img
+              src="/logo_mtgb.png"
+              alt="Yessal Logo"
+              className="h-12 w-auto"
+            />
+            <div className="flex items-center justify-center leading-tight">
+              <span
+                className="text-2xl font-bold text-primary"
+              >
+                MT GENIE BATI
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -66,12 +67,6 @@ export default function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Button
-              onClick={scrollToContact}
-              className="bg-accent hover:bg-accent/90 text-white"
-            >
-              Devis gratuit
-            </Button>
           </div>
 
           {/* Mobile Navigation */}
@@ -98,15 +93,6 @@ export default function Navigation() {
                       {item.label}
                     </Link>
                   ))}
-                  <Button
-                    onClick={() => {
-                      scrollToContact();
-                      setIsOpen(false);
-                    }}
-                    className="bg-accent hover:bg-accent/90 text-white mt-4"
-                  >
-                    Devis gratuit
-                  </Button>
                 </div>
               </SheetContent>
             </Sheet>

@@ -46,12 +46,12 @@ const sendAcknowledgmentEmail = async (
     <p>Bonjour ${name},</p>
     <p>Nous avons bien reçu votre demande de contact.</p>
     <p>Notre équipe vous répondra dans les plus brefs délais.</p>
-    <p>Merci de nous avoir contactés,<br>L'équipe MGT BatiPro</p>
+    <p>Merci de nous avoir contactés,<br>L'équipe MT GENIE BATI</p>
   `;
 
   try {
     await transporter.sendMail({
-      from: `"MGT BatiPro" <${process.env.MAIL_USER}>`,
+      from: `"MT GENIE BATI" <${process.env.MAIL_USER}>`,
       to,
       subject: "📩 Nous avons bien reçu votre message",
       html: content,
@@ -69,7 +69,7 @@ const sendInternalEmail = async (data: any) => {
   }
 
   const content = `
-    <h2>Nouveau message de contact - MGT BatiPro</h2>
+    <h2>Nouveau message de contact - MT GENIE BATI</h2>
     <p><strong>Prénom :</strong> ${data.firstName}</p>
     <p><strong>Nom :</strong> ${data.lastName}</p>
     <p><strong>Email :</strong> ${data.email}</p>
@@ -81,7 +81,7 @@ const sendInternalEmail = async (data: any) => {
 
   try {
     await transporter.sendMail({
-      from: `"MGT BatiPro" <${process.env.MAIL_USER}>`,
+      from: `"MT GENIE BATI" <${process.env.MAIL_USER}>`,
       to: "massatacisse@mtgeniebati.com",
       subject: `📥 Nouveau contact - ${data.firstName} ${data.lastName}`,
       html: content,

@@ -4,7 +4,7 @@ import { Users, Clock, ShieldCheck } from "lucide-react";
 
 export default function About() {
   useEffect(() => {
-    document.title = "À propos - MGT BatiPro";
+    document.title = "À propos - MT GENIE BATI";
   }, []);
 
   return (
@@ -18,7 +18,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="text-4xl sm:text-5xl font-bold mb-6"
           >
-            À propos de MGT BatiPro
+            À propos de MT GENIE BATI
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 30 }}
@@ -43,7 +43,7 @@ Votre partenaire de confiance pour des réalisations de qualité
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Notre Histoire</h2>
               <p className="text-lg text-gray-600 mb-6">
-MGT BatiPro s'est imposée comme un acteur incontournable de la construction et de la rénovation 
+MT GENIE BATI s'est imposée comme un acteur incontournable de la construction et de la rénovation 
                 grâce à la qualité exceptionnelle de ses réalisations.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -90,7 +90,7 @@ MGT BatiPro s'est imposée comme un acteur incontournable de la construction et 
             >
               <img 
                 src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Équipe MGT BatiPro" 
+                alt="Équipe MT GENIE BATI" 
                 className="rounded-xl shadow-2xl w-full" 
               />
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl p-6 shadow-xl border">
