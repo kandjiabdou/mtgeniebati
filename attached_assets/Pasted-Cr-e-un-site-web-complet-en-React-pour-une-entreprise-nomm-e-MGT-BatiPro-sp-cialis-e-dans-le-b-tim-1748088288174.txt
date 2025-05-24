@@ -1,0 +1,71 @@
+Crée un site web complet en React pour une entreprise nommée "MGT BatiPro" spécialisée dans le bâtiment. Le site doit être moderne, responsive, user-friendly, et intégrer des composants visuels attrayants. Utilise des librairies modernes comme Tailwind CSS pour le style et React Router pour la navigation. Voici les fonctionnalités et contenus attendus :
+
+🔹 Structure du site :
+
+Page d’accueil mettant en valeur l’entreprise, son expertise et un slogan accrocheur ("Votre projet clé en main avec MGT BatiPro, la qualité avant tout !").
+
+Présentation des prestations : Maçonnerie, Menuiserie aluminium, Peinture, Carrelage, Charpente, Décoration BA13, Vente de matériel de construction, Pavage.
+
+Une page "Nos Réalisations" avec un carrousel ou une galerie d’images montrant des projets réalisés.
+
+Une page "À propos" expliquant la philosophie et l’expertise de l’entreprise.
+
+Une page "Contact" avec formulaire de contact, plan Google Maps et informations de contact.
+
+🔹 Contenus et composants :
+
+Utilise une Hero Section avec image de fond professionnelle et texte percutant.
+
+Crée des cards ou sections dédiées pour chaque prestation.
+
+Ajoute des animations simples (par ex. avec Framer Motion) pour dynamiser l’interface.
+
+Intègre un carrousel d’images pour la page réalisations.
+
+Utilise des icônes modernes (ex. Lucide React) pour illustrer les services.
+
+Le site doit être 100% responsive (mobile, tablette, desktop).
+
+Mets en place une navigation claire avec React Router.
+
+Crée un footer professionnel avec mentions légales et réseaux sociaux.
+
+🔹 Technologies :
+
+React + Vite ou Create React App
+
+Tailwind CSS pour le style moderne et responsive
+
+React Router pour la navigation
+
+Framer Motion pour les animations
+
+(Optionnel) ShadCN UI ou MUI pour des composants modernes
+
+🔹 Contenu :
+
+Texte fourni par le client pour les prestations : "Nous vous accompagnons dans tous vos projets de construction avec des normes 100% pro du bâtiment. Service clé en main : conception, permis de construire, exécution des travaux, livraison finale. Pas besoin d’engager d’autres entrepreneurs."
+
+Ajoute une section "Pourquoi nous choisir" avec des points forts comme "Service complet", "Normes pro", "Satisfaction client".
+
+Une section "Demandez un devis" avec un bouton call-to-action.
+
+Intègre des images de réalisations et des visuels libres ou fournis.
+
+🔹 Design et ergonomie :
+
+Style moderne et épuré, adapté au secteur du bâtiment.
+
+Navigation fluide et intuitive.
+
+Palette de couleurs professionnelle (bleu, gris, blanc) avec des accents pour les boutons et call-to-action.
+
+🔹 Extras (si possible) :
+
+Ajoute un loader ou animation d’introduction.
+
+Optimise le SEO de base avec des meta tags et des titres pertinents.
+
+Ajoute des animations de transition entre les pages.
+
+💡 Le site doit donner envie, refléter le professionnalisme et la qualité de MGT BatiPro.
